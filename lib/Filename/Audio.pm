@@ -19,7 +19,7 @@ sub check_audio_filename {
 }
 
 1;
-# ABSTRACT:
+# ABSTRACT: Check whether filename indicates being an audio file
 
 =head1 SYNOPSIS
 
@@ -33,6 +33,11 @@ sub check_audio_filename {
 
 
 =head1 DESCRIPTION
+
+
+=head1 FUNCTIONS
+
+=head2 check_audio_filename
 
 
 =head1 SEE ALSO
