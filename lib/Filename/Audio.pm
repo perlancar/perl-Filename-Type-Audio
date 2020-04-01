@@ -13,13 +13,7 @@ use Exporter qw(import);
 our @EXPORT_OK = qw(check_audio_filename);
 
 # sorted by length then asciibetical
-our $STR_RE = join '|', qw(
-                    mpega
-                    aifc aiff flac midi mpga opus
-                    aif amr awb axa csd gsm kar m3u m4a mid mp2 mp3 oga ogg orc pls ram sco sd2 sid snd spx wav wax wma
-                    au rarm
-                      );
-
+our $STR_RE = "mpega|aifc|aiff|flac|midi|mpga|opus|aif|amr|awb|axa|csd|gsm|kar|m3u|m4a|mid|mp2|mp3|oga|ogg|orc|pls|ram|sco|sd2|sid|snd|spx|wav|wax|wma|au|ra|rm"; # STR_RE
 our $RE = qr(\.(?:$STR_RE)\z)i;
 
 sub check_audio_filename {
