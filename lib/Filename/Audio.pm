@@ -50,6 +50,8 @@ L<Filename::Video>
 
 L<Filename::Image>
 
+L<Filename::Ebook>
+
 L<Filename::Media>
 
 =cut
