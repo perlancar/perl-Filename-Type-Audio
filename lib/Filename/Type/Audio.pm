@@ -1,4 +1,4 @@
-package Filename::Audio;
+package Filename::Type::Audio;
 
 use 5.010001;
 use strict;
